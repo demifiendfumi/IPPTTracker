@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ippt_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonPU"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:text="Push Up" />
+
+            <Button
+                android:id="@+id/buttonChart"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:text="Chart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonSU"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:text="Sit Up" />
+
+            <Button
+                android:id="@+id/buttonRequirement"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_weight="1"
+                android:text="@string/requirement_button" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

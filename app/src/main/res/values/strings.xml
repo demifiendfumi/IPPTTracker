@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IPPT Tracker</string>
+    <string name="requirement_button">IPPT\nRequirement</string>
+    <string name="title_activity_chart__image">Charts</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_chart_image">IPPT Charts</string>
+    <string name="requirements">Push-Up
+        \n-bend arms comfortably by the side
+        \n-lower body till a fist distance from the ground
+        \n-keep body parallel to the ground
+        \n\nSit Up
+        \nDuration: 1min
+        \nMax: 25 points
+        \n\n2.4km run
+        \nMax: 50 points
+        \n\n Pass/Award Type
+        \nPilot Standards[Pilot], New Standards[New]\n
+        \nGold(Commando/Guards): >85[Pilot] | >90[New]\n
+        \nGold: >81[Pilot] | >85[New]\n
+        \nSilver: >71[Pilot] | >75[New]\n
+        \nPass with Incentive(NSmen) Pass(Active): >61[Pilot] | >61[New]\n
+        \nPass (NSmen): >51[Pilot] | >51[New]</string>
+</resources>
